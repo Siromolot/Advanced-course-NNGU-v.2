@@ -1,0 +1,5 @@
+.env
+.vscode/
+.idea
+frontend/dist/
+node_modules
