@@ -66,6 +66,7 @@ class ForgotPass extends React.Component {
     const mapStateToProps = state => {
     return {
         ...state.user,
+        ...state.general
     };
 };
 
