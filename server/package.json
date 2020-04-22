@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "server for HW of advanced course",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "startE": "node --experimental-modules server/src/server"
+  },
+  "keywords": [
+    "server",
+    "backend"
+  ],
+  "author": "Arthur",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^8.0.1",
+    "@hapi/hapi": "^18.4.0",
+    "@hapi/inert": "^5.2.2",
+    "@hapi/joi": "^16.1.8",
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "hapi-auth-bearer-token": "^6.1.2",
+    "mongoose": "^5.7.13",
+    "uuid": "^3.3.3"
+  }
+}
