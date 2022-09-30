@@ -21,7 +21,7 @@
     "@hapi/joi": "^16.1.8",
     "axios": "^0.19.0",
     "dotenv": "^8.2.0",
-    "hapi-auth-bearer-token": "^6.1.2",
+    "hapi-auth-bearer-token": "^6.1.6",
     "mongoose": "^5.7.13",
     "uuid": "^3.3.3"
   }
